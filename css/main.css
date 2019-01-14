@@ -3,6 +3,14 @@
  font-family: 'Roboto', sans-serif;
 }*/
 
+/* Stay Writer font */
+@font-face {
+	font-family: 'StayWriter';
+	font-style: normal;
+	font-weight: normal;
+	src: url("../font/StayWriter-Bold.otf") format("opentype");
+}
+
 /* main value prop in header */
 .value-prop{
 	font-family: 'Roboto', sans-serif;
@@ -20,9 +28,10 @@
 
 /* cursive sign up text */
 .sign-up {
-	font-family: 'Indie Flower', cursive;
+	/*font-family: 'Indie Flower', cursive;*/
+	font-family: 'StayWriter';
 	font-weight: bold;
-	font-size: 35px;
+	font-size: 40px;
 	text-align: center;
 }
 
